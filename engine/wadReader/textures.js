@@ -51,7 +51,6 @@ window.textures = {
             textureIndexes.splice(0,headerEnd);
 
             //This shit barely works
-            console.log(textureName);
             for (let Y = 0; Y < texture.height; Y++) {
                 for (let X = 0; X < texture.width; X++) {
                     //R=0 G=1 B=2 A=3
